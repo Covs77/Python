@@ -1,6 +1,10 @@
 ''' Ejercicio 1 Programación orientada a objetos'''
 ''' Covadonga Leguina Roig'''
 '''Creación de clases e impresión por pantalla'''
+'''Ejecuto con  <python3 CLeguina-Ej1.py> desde terminal'''
+
+from header import show_header
+show_header("POO", "Creación de clases e impresión en terminal con colores")
 
 class Persona:
   def __init__ (self, nombre, edad, ape, calle):
